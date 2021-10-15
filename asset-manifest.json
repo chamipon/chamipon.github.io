@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chamipon.github.io/static/css/main.a617e044.chunk.css",
+    "main.js": "/chamipon.github.io/static/js/main.a900a988.chunk.js",
+    "main.js.map": "/chamipon.github.io/static/js/main.a900a988.chunk.js.map",
+    "runtime-main.js": "/chamipon.github.io/static/js/runtime-main.70125d30.js",
+    "runtime-main.js.map": "/chamipon.github.io/static/js/runtime-main.70125d30.js.map",
+    "static/js/2.ba991732.chunk.js": "/chamipon.github.io/static/js/2.ba991732.chunk.js",
+    "static/js/2.ba991732.chunk.js.map": "/chamipon.github.io/static/js/2.ba991732.chunk.js.map",
+    "static/js/3.e6f45d68.chunk.js": "/chamipon.github.io/static/js/3.e6f45d68.chunk.js",
+    "static/js/3.e6f45d68.chunk.js.map": "/chamipon.github.io/static/js/3.e6f45d68.chunk.js.map",
+    "index.html": "/chamipon.github.io/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/chamipon.github.io/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.ba991732.chunk.js.LICENSE.txt": "/chamipon.github.io/static/js/2.ba991732.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/chamipon.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70125d30.js",
+    "static/js/2.ba991732.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.a900a988.chunk.js"
+  ]
+}
