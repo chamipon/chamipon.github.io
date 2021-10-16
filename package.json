@@ -1,8 +1,8 @@
 {
-  "name": "chamipon.github.io",
+  "name": "zkucera.ca",
   "version": "0.1.0",
   "private": true,
-  "homepage": "chamipon.github.io",
+  "homepage": "zkucera.ca",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
