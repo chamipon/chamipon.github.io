@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #061c44
+}
+.navbar a{
+    color: #8EB2F6;
+}
+.navbar a:hover, .navbar a:focus{
+    color: white;
+    text-decoration: solid 1px underline;
+}
