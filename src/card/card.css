@@ -1,0 +1,23 @@
+.cardCon{
+    text-align: start;
+}
+.cardCon hr{
+    color: #061c44;
+    margin: 1.5rem 0;
+    background-color: #061c44;
+}
+.cardCon p{
+    margin-bottom: 5px;
+}
+.cardCon:last-child hr{
+    display: none;
+}
+.cardImg{
+    width: 64px;
+    height: max-content;
+    margin-right: 15px;
+}
+.cardCon .badge{
+    margin-right: 5px;
+    background-color: #061c44;
+}
