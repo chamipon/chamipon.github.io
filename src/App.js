@@ -18,11 +18,13 @@ function App() {
 			<div id="about">
 				<div className="container text-center my-5">
 					<h2>About Me</h2>
+					<hr class="headerUnderline m-auto"/>
 				</div>
 			</div>
-			<div id="skills">
+			<div id="skills" class="dark">
 				<div className="container text-center my-5">
 					<h2>Skills</h2>
+					<hr class="headerUnderline m-auto"/>
 					<p>
 						{" "}
 						I have worked with many different programming languages,
@@ -61,6 +63,7 @@ function App() {
 			<div id="education">
 				<div className="container text-center my-5">
 					<h2>Education</h2>
+					<hr class="headerUnderline m-auto"/>
 					<Card
 						src="/img/UWO_LOGO_Stacked.png"
 						alt="Western University Logo"
@@ -83,9 +86,10 @@ function App() {
 					/>
 				</div>
 			</div>
-			<div id="projects">
+			<div id="projects" class="dark">
 				<div className="container text-center my-5">
 					<h2>Past Work</h2>
+					<hr class="headerUnderline m-auto"/>
 					<Card
 						src="/img/CK.png"
 						alt="Municipality of Chatham-Kent Logo"
@@ -173,6 +177,21 @@ function App() {
 			<div id="experience">
 				<div className="container text-center my-5">
 					<h2>Work Experience</h2>
+					<hr class="headerUnderline m-auto"/>
+					<Card
+						src="/img/ADS_favicon.png"
+						alt="Automation Design Solutions Logo"
+						title="Automation Design Solutions"
+						desc={[
+							<strong>Freelance Web Developer</strong>,
+							<br />,
+							<i>September 2021 - October 2021</i>,
+							<p>
+								Designed and developed the public-facing
+								Chatham-Kent website,
+							</p>,
+						]}
+					/>{" "}
 					<Card
 						src="/img/CK.png"
 						alt="Municipality of Chatham-Kent Logo"
@@ -247,7 +266,7 @@ function App() {
 					/>
 				</div>
 			</div>
-			<div id="contact">
+			<div id="contact" class="dark">
 				<div className="container text-center my-5">
 					<h2>Drop a Line</h2>
 				</div>
