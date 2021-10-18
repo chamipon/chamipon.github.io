@@ -22,33 +22,33 @@ function Navbar(props) {
 				>
 					<ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 						<li className="nav-item">
-							<a className="nav-link" href="/">
-								About Me
+							<a className="nav-link" href="#about">
+								ABOUT ME
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#skills">
-								Skills
+								SKILLS
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#education">
-								Education
+								EDUCATION
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#projects">
-								Projects
+								PROJECTS
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#experience">
-								Experience
+								EXPERIENCE
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#contact">
-								Contact
+								CONTACT
 							</a>
 						</li>
 					</ul>

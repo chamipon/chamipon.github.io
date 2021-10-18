@@ -6,7 +6,7 @@ import Card from "./card/card.js";
 function App() {
 	return (
 		<div className="App">
-			<div id="landing" className="d-flex">
+			<div id="landing" className="section d-flex">
 				<h1 className="m-auto d-block text-center">
 					Zachary Kucera
 					<br />
@@ -15,16 +15,32 @@ function App() {
 				</h1>
 			</div>
 			<Navbar />
-			<div id="about">
-				<div className="container text-center my-5">
+			<div id="about" className="section">
+				<div className="container text-center py-7">
 					<h2>About Me</h2>
-					<hr class="headerUnderline m-auto"/>
+					<hr class="headerUnderline mx-auto" />
+					<div class="flex-row d-flex">
+						<div class="col-6">
+							<img src="/img/portrait.jpg" />
+						</div>
+
+						<div class="col-6 text-start">
+							<p>
+								Hello! I am Zachary Kucera, a professional software
+								developer and software engineering graduate from
+								the University of Western Ontario. I have built
+								software in professional, academic and personal
+								settings; from websites to video games.
+							</p>
+							<p>Find out more below!</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div id="skills" class="dark">
-				<div className="container text-center my-5">
+			<div id="skills" className="section dark">
+				<div className="container text-center py-7">
 					<h2>Skills</h2>
-					<hr class="headerUnderline m-auto"/>
+					<hr class="headerUnderline mx-auto" />
 					<p>
 						{" "}
 						I have worked with many different programming languages,
@@ -60,10 +76,97 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div id="education">
-				<div className="container text-center my-5">
+			<div id="experience" className="section">
+				<div className="container text-center py-7">
+					<h2>Work Experience</h2>
+					<hr class="headerUnderline mx-auto" />
+					<Card
+						src="/img/ADS_favicon.png"
+						alt="Automation Design Solutions Logo"
+						title="Automation Design Solutions"
+						desc={[
+							<strong>Freelance Web Developer</strong>,
+							<br />,
+							<i>September 2021 - October 2021</i>,
+							<p>
+								Designed and developed the public-facing
+								Chatham-Kent website,
+							</p>,
+						]}
+					/>{" "}
+					<Card
+						src="/img/CK.png"
+						alt="Municipality of Chatham-Kent Logo"
+						title="Municipality of Chatham-Kent"
+						desc={[
+							<strong>Web Design & Developer</strong>,
+							<br />,
+							<i>November 2019 - September 2021</i>,
+							<p>
+								Designed and developed the public-facing
+								Chatham-Kent website,
+							</p>,
+						]}
+					/>{" "}
+					<Card
+						src="/img/mustangsLogo.png"
+						title="UWO Fencing Team"
+						alt="Western Mustangs Logo"
+						desc={[
+							<strong>Technical Assistant</strong>,
+							<br />,
+							<i>September 2018 - May 2019</i>,
+							<ul>
+								<li>
+									Developed and mantained team websites to
+									provide team and fans with up to date
+									information.{" "}
+								</li>
+								<li>
+									Designed database tables and entered data to
+									assist the head coaches with information of
+									players, alumni, and potential recruits.{" "}
+								</li>
+								<li>
+									Improved productivity and system reliability
+									by integrating G Suite into work flow.{" "}
+								</li>
+								<li>
+									Assisted with daily bookkeeping and
+									inventory managment jobs, guarunteeing
+									players and staff were had all essential
+									gear.{" "}
+								</li>
+							</ul>,
+						]}
+					/>
+					<Card
+						src="/img/GMLogo.png"
+						alt="General Motors Logo"
+						title="GM CAMI Assembly"
+						desc={[
+							<strong>Production Associate</strong>,
+							<br />,
+							<i>Summers 2016 - 2018</i>,
+							<ul>
+								<li>
+									Constructed and inspected 500 vehicles per
+									day, resulting in high-quality products and
+									upwards of 90% line up time.
+								</li>
+								<li>
+									Inspected products of automated work to
+									ensure robots were meeting quality standards
+								</li>
+							</ul>,
+						]}
+					/>
+				</div>
+			</div>
+			<div id="education" className="section dark">
+				<div className="container text-center py-7">
 					<h2>Education</h2>
-					<hr class="headerUnderline m-auto"/>
+					<hr class="headerUnderline mx-auto" />
 					<Card
 						src="/img/UWO_LOGO_Stacked.png"
 						alt="Western University Logo"
@@ -86,18 +189,35 @@ function App() {
 					/>
 				</div>
 			</div>
-			<div id="projects" class="dark">
-				<div className="container text-center my-5">
+			<div id="projects" className="section">
+				<div className="container text-center py-7">
 					<h2>Past Work</h2>
-					<hr class="headerUnderline m-auto"/>
+					<hr class="headerUnderline mx-auto" />
+					<Card
+						src="/img/ADS_favicon.png"
+						alt="Automation Design Solutions Logo"
+						title="Automation Design Solutions Website"
+						desc={[
+							<p>
+								Designed, developed and deployed the new ADS company website.
+							</p>,
+						]}
+						badges={[
+							"Sharepoint",
+							"HTML",
+							"CSS",
+							"Javascript",
+							"Jquery",
+							"Bootstrap",
+						]}
+					/>
 					<Card
 						src="/img/CK.png"
 						alt="Municipality of Chatham-Kent Logo"
 						title="Municipality of Chatham-Kent Website"
 						desc={[
 							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
+								Refreshed the Chatham-Kent website, breathing life into the municipality's online presense. 
 							</p>,
 						]}
 						badges={[
@@ -174,100 +294,8 @@ function App() {
 					/>
 				</div>
 			</div>
-			<div id="experience">
-				<div className="container text-center my-5">
-					<h2>Work Experience</h2>
-					<hr class="headerUnderline m-auto"/>
-					<Card
-						src="/img/ADS_favicon.png"
-						alt="Automation Design Solutions Logo"
-						title="Automation Design Solutions"
-						desc={[
-							<strong>Freelance Web Developer</strong>,
-							<br />,
-							<i>September 2021 - October 2021</i>,
-							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
-							</p>,
-						]}
-					/>{" "}
-					<Card
-						src="/img/CK.png"
-						alt="Municipality of Chatham-Kent Logo"
-						title="Municipality of Chatham-Kent"
-						desc={[
-							<strong>Web Design & Developer</strong>,
-							<br />,
-							<i>November 2019 - September 2021</i>,
-							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
-							</p>,
-						]}
-					/>{" "}
-					<Card
-						src="/img/mustangsLogo.png"
-						title="UWO Fencing Team"
-						alt="Western Mustangs Logo"
-						desc={[
-							<strong>Technical Assistant</strong>,
-							<br />,
-							<i>September 2018 - May 2019</i>,
-							<p>A website built for the UWO fencing team.</p>,
-							<ul>
-								<li>
-									Developed and mantained team websites to
-									provide team and fans with up to date
-									information.{" "}
-								</li>
-								<li>
-									Designed database tables and entered data to
-									assist the head coaches with information of
-									players, alumni, and potential recruits.{" "}
-								</li>
-								<li>
-									Improved productivity and system reliability
-									by integrating G Suite into work flow.{" "}
-								</li>
-								<li>
-									Assisted with daily bookkeeping and
-									inventory managment jobs, guarunteeing
-									players and staff were had all essential
-									gear.{" "}
-								</li>
-							</ul>,
-						]}
-					/>
-					<Card
-						src="/img/GMLogo.png"
-						alt="General Motors Logo"
-						title="GM CAMI Assembly"
-						desc={[
-							<strong>Production Associate</strong>,
-							<br />,
-							<i>Summers 2016 - 2018</i>,
-							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
-							</p>,
-							<ul>
-								<li>
-									Constructed and inspected 500 vehicles per
-									day, resulting in high-quality products and
-									upwards of 90% line up time.
-								</li>
-								<li>
-									Inspected products of automated work to
-									ensure robots were meeting quality standards
-								</li>
-							</ul>,
-						]}
-					/>
-				</div>
-			</div>
-			<div id="contact" class="dark">
-				<div className="container text-center my-5">
+			<div id="contact" className="section dark">
+				<div className="container text-center py-7">
 					<h2>Drop a Line</h2>
 				</div>
 			</div>
