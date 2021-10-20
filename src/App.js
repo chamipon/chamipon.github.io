@@ -203,12 +203,12 @@ function App() {
 							</p>,
 						]}
 						badges={[
-							"Sharepoint",
 							"HTML",
 							"CSS",
 							"Javascript",
 							"Jquery",
 							"Bootstrap",
+							"cPanel"
 						]}
 					/>
 					<Card
