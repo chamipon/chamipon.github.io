@@ -1,5 +1,6 @@
 .navbar{
-    background-color: #061c44
+    background-color: #061c44;
+    top: -1px;
 }
 .navbar a{
     color: #8EB2F6;
