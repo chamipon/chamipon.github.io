@@ -8,3 +8,6 @@
     color: white;
     text-decoration: solid 1px underline;
 }
+.navbar-toggler-icon{
+    background-image: url("../bars-solid.svg");
+}

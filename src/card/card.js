@@ -7,7 +7,8 @@ function Card(props) {
             <div className="d-flex flex-column flex-sm-row">
                 <img className="cardImg" alt={props.alt} src={props.src} />
                 <div>
-                    <h3 className="cardTitle">{props.title}</h3>
+                    {props.url && <h3 className="cardTitle"><a href={props.url}>{props.title}</a></h3>}
+                    {!props.url && <h3 className="cardTitle">{props.title}</h3>}
                     <p className="cardDesc">{props.desc}</p>
                     {props.badges && props.badges.map((title,i) => (
                         <span className="badge">{title}</span>

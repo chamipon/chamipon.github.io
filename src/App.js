@@ -10,7 +10,7 @@ function App() {
 				<h1 className="m-auto d-block text-center">
 					Zachary Kucera
 					<br />
-					<hr class="mx-auto" />
+					<hr className="mx-auto" />
 					<span>Software Developer</span>
 				</h1>
 			</div>
@@ -18,19 +18,20 @@ function App() {
 			<div id="about" className="section">
 				<div className="container text-center py-7">
 					<h2>About Me</h2>
-					<hr class="headerUnderline mx-auto" />
-					<div class="flex-row d-flex">
-						<div class="col-6">
-							<img src="/img/portrait.jpg" />
+					<hr className="headerUnderline mx-auto" />
+					<div className="flex-sm-row flex-column d-flex">
+						<div className="col-12 col-sm-6">
+							<img alt="Zachary Kucera" src="/img/portrait.jpg" />
 						</div>
 
-						<div class="col-6 text-start">
+						<div className="col-12 col-sm-6 text-start">
 							<p>
-								Hello! I am Zachary Kucera, a professional software
-								developer and software engineering graduate from
-								the University of Western Ontario. I have built
-								software in professional, academic and personal
-								settings; from websites to video games.
+								Hello! I am Zachary Kucera, a professional
+								software developer and software engineering
+								graduate from the University of Western Ontario.
+								I have built software in professional, academic
+								and personal settings; from websites to video
+								games.
 							</p>
 							<p>Find out more below!</p>
 						</div>
@@ -40,7 +41,7 @@ function App() {
 			<div id="skills" className="section dark">
 				<div className="container text-center py-7">
 					<h2>Skills</h2>
-					<hr class="headerUnderline mx-auto" />
+					<hr className="headerUnderline mx-auto" />
 					<p>
 						{" "}
 						I have worked with many different programming languages,
@@ -48,14 +49,14 @@ function App() {
 						Node.js are my go to technologies for web applications,
 						and C++ is my default programming language.{" "}
 					</p>
-					<div class="row">
-						<div class="col-3">Javascript</div>
-						<div class="col-3">HTML</div>
-						<div class="col-3">CSS</div>
-						<div class="col-3">C++</div>
+					<div className="row mb-3">
+						<div className="col-3">Javascript</div>
+						<div className="col-3">HTML</div>
+						<div className="col-3">CSS</div>
+						<div className="col-3">C++</div>
 					</div>
-					<div class="row">
-						<div class="col-6">
+					<div className="row">
+						<div className="col-6">
 							<h3>Development Tools</h3>
 							<ul>
 								<li>Git</li>
@@ -64,7 +65,7 @@ function App() {
 								<li>Linux</li>
 							</ul>
 						</div>
-						<div class="col-6">
+						<div className="col-6">
 							<h3>Frameworks</h3>
 							<ul>
 								<li>React</li>
@@ -79,7 +80,7 @@ function App() {
 			<div id="experience" className="section">
 				<div className="container text-center py-7">
 					<h2>Work Experience</h2>
-					<hr class="headerUnderline mx-auto" />
+					<hr className="headerUnderline mx-auto" />
 					<Card
 						src="/img/ADS_favicon.png"
 						alt="Automation Design Solutions Logo"
@@ -88,10 +89,34 @@ function App() {
 							<strong>Freelance Web Developer</strong>,
 							<br />,
 							<i>September 2021 - October 2021</i>,
-							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
-							</p>,
+							<ul>
+								<li>
+									Gathered requirements from clients through
+									meetings and presentation of demos, ensuring
+									a complete understanding of business needs
+								</li>
+								<li>
+									Designed and developed a new company
+									website, increasing the effectiveness of the
+									client's online presence
+								</li>
+								<li>
+									Deployed code to a remote server using
+									cPanel, simplifying the administration
+									process for the clients
+								</li>
+								<li>
+									Transferred ownership of website to the
+									client, by training them in web
+									technologies, eliminating dependence on
+									third-party contractors.
+								</li>
+								<li>
+									Applied SEO, accessibility and responsive
+									design best practices, providing all users
+									with an excellent experience
+								</li>
+							</ul>,
 						]}
 					/>{" "}
 					<Card
@@ -102,10 +127,32 @@ function App() {
 							<strong>Web Design & Developer</strong>,
 							<br />,
 							<i>November 2019 - September 2021</i>,
-							<p>
-								Designed and developed the public-facing
-								Chatham-Kent website,
-							</p>,
+							<ul>
+								<li>
+									Built tools and streamlined processes
+									allowing business units to update website
+									content without contacting IT, reducing long
+									term operational costs
+								</li>
+
+								<li>
+									Constructed page templates compliant with
+									the WCAG level AA guidelines, improving
+									content accessibility
+								</li>
+								<li>
+									Implemented SEO best practices and
+									techniques using Google Analytics,
+									increasing the discoverability of
+									information
+								</li>
+								<li>
+									Utilized Bootstrap to execute a
+									"mobile-first" design strategy, enabling a
+									seamless browsing experience on a device of
+									any size{" "}
+								</li>
+							</ul>,
 						]}
 					/>{" "}
 					<Card
@@ -166,7 +213,7 @@ function App() {
 			<div id="education" className="section dark">
 				<div className="container text-center py-7">
 					<h2>Education</h2>
-					<hr class="headerUnderline mx-auto" />
+					<hr className="headerUnderline mx-auto" />
 					<Card
 						src="/img/UWO_LOGO_Stacked.png"
 						alt="Western University Logo"
@@ -192,14 +239,16 @@ function App() {
 			<div id="projects" className="section">
 				<div className="container text-center py-7">
 					<h2>Past Work</h2>
-					<hr class="headerUnderline mx-auto" />
+					<hr className="headerUnderline mx-auto" />
 					<Card
 						src="/img/ADS_favicon.png"
+						url="https://www.adsservices.ca/"
 						alt="Automation Design Solutions Logo"
 						title="Automation Design Solutions Website"
 						desc={[
 							<p>
-								Designed, developed and deployed the new ADS company website.
+								Designed, developed and deployed the new ADS
+								company website.
 							</p>,
 						]}
 						badges={[
@@ -208,16 +257,18 @@ function App() {
 							"Javascript",
 							"Jquery",
 							"Bootstrap",
-							"cPanel"
+							"cPanel",
 						]}
 					/>
 					<Card
 						src="/img/CK.png"
+						url="https://www.chatham-kent.ca/Pages/default.aspx"
 						alt="Municipality of Chatham-Kent Logo"
 						title="Municipality of Chatham-Kent Website"
 						desc={[
 							<p>
-								Refreshed the Chatham-Kent website, breathing life into the municipality's online presense. 
+								Refreshed the Chatham-Kent website, breathing
+								life into the municipality's online presense.
 							</p>,
 						]}
 						badges={[
@@ -231,7 +282,8 @@ function App() {
 					/>
 					<Card
 						src="/img/mustangsLogo.png"
-						title="Fencing Team Website"
+						url="https://uwovarsityfencing.com/"
+						title="UWO Fencing Team Website"
 						alt="Western Mustangs Logo"
 						desc={[
 							<p>A website built for the UWO fencing team.</p>,
@@ -263,6 +315,7 @@ function App() {
 					/>
 					<Card
 						src="/img/azureLogo.png"
+						url="https://github.com/zkucera/cloud_computing_assignment2"
 						title="Cloud Application Deployment"
 						alt="Microsoft Azure Logo"
 						desc={[
@@ -281,6 +334,7 @@ function App() {
 					/>
 					<Card
 						src="/img/rayTracer.png"
+						url ="https://github.com/zkucera/computer_graphics_assignment_3"
 						title="Ray Tracing Engine"
 						alt="A ray traced scene with a cone and sphere."
 						desc={[
@@ -294,11 +348,11 @@ function App() {
 					/>
 				</div>
 			</div>
-			<div id="contact" className="section dark">
+			{/* <div id="contact" className="section dark">
 				<div className="container text-center py-7">
 					<h2>Drop a Line</h2>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }
