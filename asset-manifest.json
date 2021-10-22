@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/zkucera.ca/static/css/main.49e5a872.chunk.css",
-    "main.js": "/zkucera.ca/static/js/main.5cf742f1.chunk.js",
-    "main.js.map": "/zkucera.ca/static/js/main.5cf742f1.chunk.js.map",
-    "runtime-main.js": "/zkucera.ca/static/js/runtime-main.9cbb0579.js",
-    "runtime-main.js.map": "/zkucera.ca/static/js/runtime-main.9cbb0579.js.map",
-    "static/js/2.0aff7f96.chunk.js": "/zkucera.ca/static/js/2.0aff7f96.chunk.js",
-    "static/js/2.0aff7f96.chunk.js.map": "/zkucera.ca/static/js/2.0aff7f96.chunk.js.map",
-    "static/js/3.2190672b.chunk.js": "/zkucera.ca/static/js/3.2190672b.chunk.js",
-    "static/js/3.2190672b.chunk.js.map": "/zkucera.ca/static/js/3.2190672b.chunk.js.map",
-    "index.html": "/zkucera.ca/index.html",
-    "static/css/main.49e5a872.chunk.css.map": "/zkucera.ca/static/css/main.49e5a872.chunk.css.map",
-    "static/js/2.0aff7f96.chunk.js.LICENSE.txt": "/zkucera.ca/static/js/2.0aff7f96.chunk.js.LICENSE.txt",
-    "static/media/navbar.css": "/zkucera.ca/static/media/bars-solid.db567b81.svg",
-    "static/media/logo.6ce24c58.svg": "/zkucera.ca/static/media/logo.6ce24c58.svg"
+    "main.css": "/www.zkucera.ca/static/css/main.4464d1f4.chunk.css",
+    "main.js": "/www.zkucera.ca/static/js/main.5cf742f1.chunk.js",
+    "main.js.map": "/www.zkucera.ca/static/js/main.5cf742f1.chunk.js.map",
+    "runtime-main.js": "/www.zkucera.ca/static/js/runtime-main.921df1ee.js",
+    "runtime-main.js.map": "/www.zkucera.ca/static/js/runtime-main.921df1ee.js.map",
+    "static/js/2.0aff7f96.chunk.js": "/www.zkucera.ca/static/js/2.0aff7f96.chunk.js",
+    "static/js/2.0aff7f96.chunk.js.map": "/www.zkucera.ca/static/js/2.0aff7f96.chunk.js.map",
+    "static/js/3.2190672b.chunk.js": "/www.zkucera.ca/static/js/3.2190672b.chunk.js",
+    "static/js/3.2190672b.chunk.js.map": "/www.zkucera.ca/static/js/3.2190672b.chunk.js.map",
+    "index.html": "/www.zkucera.ca/index.html",
+    "static/css/main.4464d1f4.chunk.css.map": "/www.zkucera.ca/static/css/main.4464d1f4.chunk.css.map",
+    "static/js/2.0aff7f96.chunk.js.LICENSE.txt": "/www.zkucera.ca/static/js/2.0aff7f96.chunk.js.LICENSE.txt",
+    "static/media/navbar.css": "/www.zkucera.ca/static/media/bars-solid.db567b81.svg",
+    "static/media/logo.6ce24c58.svg": "/www.zkucera.ca/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9cbb0579.js",
+    "static/js/runtime-main.921df1ee.js",
     "static/js/2.0aff7f96.chunk.js",
-    "static/css/main.49e5a872.chunk.css",
+    "static/css/main.4464d1f4.chunk.css",
     "static/js/main.5cf742f1.chunk.js"
   ]
 }
