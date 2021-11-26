@@ -31,6 +31,11 @@ function Navbar(props) {
 								SKILLS
 							</a>
 						</li>
+                        <li className="nav-item">
+							<a className="nav-link" href="#experience">
+								EXPERIENCE
+							</a>
+						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#education">
 								EDUCATION
@@ -41,11 +46,7 @@ function Navbar(props) {
 								PROJECTS
 							</a>
 						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#experience">
-								EXPERIENCE
-							</a>
-						</li>
+
 						{/* <li className="nav-item">
 							<a className="nav-link" href="#contact">
 								CONTACT

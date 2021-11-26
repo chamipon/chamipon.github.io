@@ -17,6 +17,16 @@
   max-width: 60%;
   max-height: 444px;
 }
+#about svg{
+    width:40px;
+    color:#061c44;
+    transition: 0.2s;
+    margin: 5px 0;
+}
+#about svg:hover{
+    color:#0d6efd;
+    margin: 2px 0 8px 0
+}
 #skills ul{
   list-style: none;
   padding-left: 0;
