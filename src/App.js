@@ -21,7 +21,7 @@ function App() {
 					<hr className="headerUnderline mx-auto" />
 					<div className="flex-sm-row flex-column d-flex">
 						<div className="col-12 col-sm-6">
-							<img alt="Zachary Kucera" src="/img/portrait.jpg" />
+							<img alt="Zachary Kucera" src="/img/headshot.jpg" />
 						</div>
 
 						<div className="col-12 col-sm-6 text-start">
@@ -85,6 +85,44 @@ function App() {
 					<h2>Work Experience</h2>
 					<hr className="headerUnderline mx-auto" />
 					<Card
+						src="/img/lambton-college-logo.png"
+						alt="Lambton College Logo"
+						title="Lambton College"
+						desc={[
+							<strong>Web Developer</strong>,
+							<br />,
+							<i>February 2022 - Current</i>,
+							<ul>
+								<li>
+									Gathered requirements from clients through
+									meetings and presentation of demos, ensuring
+									a complete understanding of business needs
+								</li>
+								<li>
+									Designed and developed a new company
+									website, increasing the effectiveness of the
+									client's online presence
+								</li>
+								<li>
+									Deployed code to a remote server using
+									cPanel, simplifying the administration
+									process for the clients
+								</li>
+								<li>
+									Transferred ownership of website to the
+									client, by training them in web
+									technologies, eliminating dependence on
+									third-party contractors.
+								</li>
+								<li>
+									Applied SEO, accessibility and responsive
+									design best practices, providing all users
+									with an excellent experience
+								</li>
+							</ul>,
+						]}
+					/>{" "}
+                    <Card
 						src="/img/ADS_favicon.png"
 						alt="Automation Design Solutions Logo"
 						title="Automation Design Solutions"
@@ -243,6 +281,25 @@ function App() {
 				<div className="container text-center py-7">
 					<h2>Past Work</h2>
 					<hr className="headerUnderline mx-auto" />
+                    <Card
+						src="/img/lambton-college-logo.png"
+						url="https://www.lambtoncollege.ca"
+						alt="Lambton College Logo"
+						title="Lambton College"
+						desc={[
+							<p>
+								Rebuilt Lambton College's website on a new CMS, with improved design and functionality.
+							</p>,
+						]}
+						badges={[
+							".Net",
+							"C#",
+							"SASS",
+                            "Git",
+                            "Sitefinity",
+							"IIS",
+						]}
+					/>
 					<Card
 						src="/img/app_touch_icon.png"
 						url="https://www.ultradex.ca"
