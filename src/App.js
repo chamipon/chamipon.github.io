@@ -97,20 +97,26 @@ function App() {
 							<i>February 2022 - Current</i>,
 							<ul>
 								<li>
-                                    Developed reusable components, enabling content authours to create complex pages with minimal technical experience
+                                    Led a small development team in the overhaul of Lambton College’s corporate website, from inception to deployment
+                                </li>
+								<li>
+                                    Provided guidance and mentorship to junior developers, ensuring their smooth integration into the team and enhancing overall project efficiency
 								</li>
 								<li>
-                                    Utilized design mockups to transform prototypes into fully functional web interfaces
-								</li>
-								<li>
-                                    Implemented the BEM front-end methodology, enhancing code reusability, maintainability and understandability
+                                    Developed reusable components, empowering content authors to effortlessly create intricate pages with minimal technical expertise
 								</li>
                                 <li>
-                                    Created automations and processes, greatly reducing the time required to create content within the CMS
+                                    Translated design mockups into fully functional web interfaces, adhering closely to project specifications
 								</li>
 								<li>
-                                    Refactored legacy MVC code to .Net Core, increasing code modularity and enabling its use with newer web technologies
+                                    Implemented the BEM front-end methodology, optimizing code reusability, maintainability, and comprehensibility
 								</li>
+                                <li>
+                                    Refactored legacy MVC code to .NET Core, enhancing code modularity and enabling seamless integration with modern web technologies
+                                </li>
+                                <li>
+                                    Designed and implemented automations and streamlined processes, significantly reducing content creation time within the CMS
+                                </li>
 							</ul>,
 						]}
 					/>{" "}
