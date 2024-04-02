@@ -1,4 +1,3 @@
-import githubLogo from "./github-brands.svg";
 import "./App.css";
 import Navbar from "./navbar/navbar.js";
 import Card from "./card/card.js";
