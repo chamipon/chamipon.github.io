@@ -51,33 +51,33 @@ function App() {
 					<p>
 						{" "}
 						I have worked with many different programming languages,
-						frameworks, engines and development tools. Angular and
+						frameworks, engines and development tools. React and
 						Node.js are my go to technologies for web applications,
-						and C++ is my default programming language.{" "}
+						and C# is my default programming language.{" "}
 					</p>
 					<div className="row mb-3">
 						<div className="col-3">Javascript</div>
 						<div className="col-3">HTML</div>
 						<div className="col-3">CSS</div>
-						<div className="col-3">C++</div>
+						<div className="col-3">C#</div>
 					</div>
 					<div className="row">
 						<div className="col-6">
 							<h3>Development Tools</h3>
 							<ul>
 								<li>Git</li>
-								<li>Sharepoint</li>
-								<li>Windows</li>
-								<li>Linux</li>
+								<li>NPM</li>
+								<li>Webpack</li>
+								<li>Postman</li>
 							</ul>
 						</div>
 						<div className="col-6">
 							<h3>Frameworks</h3>
 							<ul>
 								<li>React</li>
-								<li>Jquery</li>
-								<li>Node.Js</li>
+								<li>Next.Js</li>
 								<li>Bootstrap</li>
+                                <li>Jquery</li>
 							</ul>
 						</div>
 					</div>
